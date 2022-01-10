@@ -1,0 +1,37 @@
+body{background-color: wHITE;
+	font-family: sans-serif
+}
+.ct{min-height: 100vh;
+	width: 80%;
+	display: grid;
+	grid-template-columns: repeat(7, 1fr);
+	margin: 2rem auto;
+	padding: auto;
+}
+.leftsection{grid-column: SPAN 2;
+
+	background-color: #193153 ;
+	height: 100% ;
+	color: white;
+	align-content: CENTER;
+
+}
+.rightsection{grid-column: SPAN 5;
+	background-color:  #f7f7f7;
+	height: 100%;
+}
+#photo{margin-right: 100px;
+	margin-left: 100;
+	margin-top: 20px;
+	border-radius: 30px;
+	padding-left: 50px;
+padding-bottom: 50px;
+justify-content: right;
+border-radius: 50px;	
+}
+img{border-radius: 50px;
+	border: thick;
+	color-interpolation-filters: linearRGB;
+
+}
+
